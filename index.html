@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <title>News homepage</title>
+
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+    <div class="nav__row">
+        <img src="./assets/images/logo.svg" alt="logo" class="nav__logo">
+
+        <img src="./assets/images/icon-menu.svg" alt="hamburger menu" class="hamburger" id="hamburger">
+        <img src="./assets/images/icon-menu-close.svg" alt="hamburger menu" class="hamburger hidden" id="close">
+
+        <ul class="nav__list--desktop hidden">
+          <li class="nav__item--desktop nav__item"><a href="#" class="nav__link--desktop nav__link">Home</a></li>
+          <li class="nav__item--desktop nav__item"><a href="#" class="nav__link--desktop nav__link">New</a></li>
+          <li class="nav__item--desktop nav__item"><a href="#" class="nav__link--desktop nav__link">Popular</a></li>
+          <li class="nav__item--desktop nav__item"><a href="#" class="nav__link--desktop nav__link">Trending</a></li>
+          <li class="nav__item--desktop nav__item"><a href="#" class="nav__link--desktop nav__link">Categories</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mobile">
+      <ul class="nav__list--mobile">
+        <li class="nav__item--mobile nav__item"><a href="#" class="nav__link--mobile nav__link">Home</a></li>
+        <li class="nav__item--mobile nav__item"><a href="#" class="nav__link--mobile nav__link">New</a></li>
+        <li class="nav__item--mobile nav__item"><a href="#" class="nav__link--mobile nav__link">Popular</a></li>
+        <li class="nav__item--mobile nav__item"><a href="#" class="nav__link--mobile nav__link">Trending</a></li>
+        <li class="nav__item--mobile nav__item"><a href="#" class="nav__link--mobile nav__link">Categories</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="blur">
+  <div class="row">
+  
+  <header class="header">
+    <div class="container">
+    <img src="./assets/images/image-web-3-mobile.jpg" alt="colourful blocks" class="header__img--mobile">
+    <img src="./assets/images/image-web-3-desktop.jpg" alt="colourful blocks" class="header__img--desktop hidden">
+
+      <div class="header__row">
+        <div class="column">
+          <div class="header__wrapper--title">
+              <h1 class="header__title">The Bright Future of Web 3.0?</h1>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="header__wrapper--text">
+            <p class="header__text">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+              But is it really fulfilling its promise?</p>
+            <a href="#" class="header__button button">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+  <section class="aside container blur">
+      <div class="container">
+        <h2 class="aside__title">New </h2>
+        <div class="aside__column">
+
+          <div class="aside__column--one">
+            <h3 class="aside__subtitle"><a href="#" class="aside__subtitle--link">Hydrogen VS Electric Cars</a></h3>
+            <p class="aside__text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+        </div>
+
+        <div class="aside__column">
+          <div class="aside__column--two">
+            <h3 class="aside__subtitle"><a href="#" class="aside__subtitle--link">The Downsides of AI Artistry</a></h3>
+            <p class="aside__text">What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+        </div>
+
+        <div class="aside__column">
+          <div class="aside__column--three">
+            <h3 class="aside__subtitle"><a href="#" class="aside__subtitle--link">Is VC Funding Drying Up?</a></h3>
+            <p class="aside__text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  </div>
+    
+
+  <section class="hottopic container">
+
+        <div class="hottopic__column one">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="laptops" class="hottopic__img--one hottopic__img">
+           
+            <div class="hottopic__column--one">
+              <h2 class="hottopic__number">01</h2>
+              <h3 class="hottopic__title"><a href="#" class="hottopic__link">Reviving Retro PCs</a></h3>
+              <p class="hottopic__text">What happens when old PCs are given modern upgrades?</p>
+            </div>
+       
+        </div>
+
+        <div class="hottopic__column">
+            <img src="./assets/images/image-top-laptops.jpg" alt="laptops" class="hottopic__img--two hottopic__img">
+      
+            <div class="hottopic__column--two">
+              <h2 class="hottopic__number">02</h2>
+              <h3 class="hottopic__title"><a href="#" class="hottopic__link">Top 10 Laptops of 2022</a></h3>
+              <p class="hottopic__text">Our best picks for various needs and budgets.</p>
+            </div>
+         
+        </div>
+
+        <div class="hottopic__column">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="laptops" class="hottopic__img--three hottopic__img">
+    
+            <div class="hottopic__column--three">
+              <h2 class="hottopic__number">03</h2>
+              <h3 class="hottopic__title"><a href="#" class="hottopic__link">The Growth of Gaming</a></h3>
+              <p class="hottopic__text">How the pandemic has sparked fresh opportunities.</p>
+            </div>
+         
+        </div>
+     
+  </section>
+</div>
+  
+  
+<script src="main.js"></script>
+</body>
+</html>
